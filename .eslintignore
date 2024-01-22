@@ -1,0 +1,10 @@
+dist
+node_modules
+*.md
+*.json
+*.html
+*.yaml
+*.yml
+*.d.ts
+**/*.js
+**/*.cjs
