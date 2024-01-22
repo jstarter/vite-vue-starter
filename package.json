@@ -9,15 +9,15 @@
     "build": "pnpm clean && vue-tsc && vite build",
     "clean": "node scripts/clean.js",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,vue,tsx",
-    "lint:fix": "eslint . --fix --ext ts,vue,tsx"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
     "commit-msg": "node scripts/verify-commit.js"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,vue}": [
+    "*.{js,cjs,ts,tsx,vue}": [
       "eslint --fix"
     ]
   },

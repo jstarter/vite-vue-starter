@@ -6,5 +6,3 @@ node_modules
 *.yaml
 *.yml
 *.d.ts
-**/*.js
-**/*.cjs

@@ -25,12 +25,15 @@ module.exports = {
         'vue/html-indent': ['warn', 4],
         'vue/multi-word-component-names': 'off',
         'vue/singleline-html-element-content-newline': 'off',
-        'vue/html-self-closing': [ 'warn', {
-            html: {
-                void: 'always',
-                normal: 'never'
+        'vue/html-self-closing': [
+            'warn',
+            {
+                html: {
+                    void: 'always',
+                    normal: 'never'
+                }
             }
-        }]
+        ]
     },
     overrides: []
 }
