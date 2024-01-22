@@ -4,5 +4,6 @@ module.exports = {
     tabWidth: 4,
     useTabs: false,
     trailingComma: 'none',
+    singleAttributePerLine: true,
     htmlWhitespaceSensitivity: 'ignore'
 }

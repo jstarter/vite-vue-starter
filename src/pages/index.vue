@@ -2,8 +2,8 @@
 const routes = useRouter().getRoutes()
 
 const entrances = routes
-    .filter(r => r.path !== '/')
-    .map(r => ({
+    .filter((r) => r.path !== '/')
+    .map((r) => ({
         text: r.meta?.title,
         url: r.path
     }))

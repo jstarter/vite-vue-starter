@@ -23,7 +23,6 @@ router.afterEach((to) => {
 
 createApp(App).use(router).mount('#app')
 
-
 if (import.meta.env.DEV) {
     console.log(import.meta.env)
     console.log(router.getRoutes())

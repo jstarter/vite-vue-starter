@@ -5,16 +5,12 @@
     }
 }
 </route>
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <div class="vapp">
-        <HelloWorld :msg="new Date().toLocaleString()"></HelloWorld>
+        <HelloWorld :msg="new Date().toLocaleString()" />
     </div>
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
