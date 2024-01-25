@@ -8,6 +8,7 @@
     "dev": "vite --host",
     "build": "pnpm clean && vue-tsc && vite build",
     "clean": "node scripts/clean.js",
+    "deploy:gitee": "node scripts/gitee.js",
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
