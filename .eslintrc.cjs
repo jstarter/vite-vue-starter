@@ -14,7 +14,8 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
-        'plugin:vue/vue3-recommended' // https://eslint.vuejs.org
+        'plugin:vue/vue3-recommended', // https://eslint.vuejs.org
+        'plugin:prettier/recommended'
     ],
     rules: {
         'prettier/prettier': 'warn',
@@ -35,5 +36,12 @@ module.exports = {
             }
         ]
     },
+    ignorePatterns: [
+        'dist',
+        'node_modules',
+        'tmp',
+        '*.d.ts',
+        '*.{md,json,yaml,yml}'
+    ],
     overrides: []
 }

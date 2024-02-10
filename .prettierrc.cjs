@@ -5,5 +5,13 @@ module.exports = {
     useTabs: false,
     trailingComma: 'none',
     singleAttributePerLine: true,
-    htmlWhitespaceSensitivity: 'ignore'
+    htmlWhitespaceSensitivity: 'ignore',
+    overrides: [
+        {
+            files: ['*.json', '*.yaml', '*.yml'],
+            options: {
+                tabWidth: 2
+            }
+        }
+    ]
 }
