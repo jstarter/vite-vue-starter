@@ -2,6 +2,7 @@
   "recommendations": [
     "Vue.volar", 
     "Vue.vscode-typescript-vue-plugin",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "github.vscode-github-actions"
   ]
 }
