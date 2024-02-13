@@ -50,7 +50,7 @@ export default defineConfig({
             resolvers: [IconsResolver()]
         }),
 
-        // https://npmmirror.com/package/unplugin-icons
+        // https://npmmirror.com/package/unplugin-icons#h-auto-importing
         // https://icones.js.org
         Icons({
             compiler: 'vue3',

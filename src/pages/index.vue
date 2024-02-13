@@ -18,6 +18,7 @@ const entrances = routes
             role="button"
             class="btn btn-outline"
         >
+            <i-mdi:link-variant />
             {{ entry.text }}
         </RouterLink>
     </div>
