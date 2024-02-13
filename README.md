@@ -1,6 +1,7 @@
 # vite-vue-starter
 
-[![Deploy](https://github.com/justorez/vite-vue-starter/actions/workflows/deploy.yml/badge.svg)](https://github.com/ustorez/vite-vue-starter/actions/workflows/deploy.yml)
+[![deploy](https://github.com/justorez/vite-vue-starter/actions/workflows/deploy.yml/badge.svg)](https://github.com/justorez/vite-vue-starter/actions/workflows/deploy.yml)
+[![release](https://github.com/justorez/vite-vue-starter/actions/workflows/release.yml/badge.svg)](https://github.com/justorez/vite-vue-starter/actions/workflows/release.yml)
 
 > Hurry up! Go dev.
 
