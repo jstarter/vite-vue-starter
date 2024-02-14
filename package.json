@@ -11,9 +11,8 @@
     "sync:gitee": "node scripts/gitee.js",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ignore-path .gitignore .",
-    "changelog": "conventional-changelog -p angular -t v -i CHANGELOG.md -s",
-    "release": "node scripts/release.js",
-    "commit": "pnpm exec cz"
+    "release": "standard-version",
+    "commit": "cz"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
@@ -63,6 +62,7 @@
     "semver": "^7.5.4",
     "shelljs": "^0.8.5",
     "simple-git-hooks": "^2.9.0",
+    "standard-version": "^9.5.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "unplugin-auto-import": "^0.17.3",
